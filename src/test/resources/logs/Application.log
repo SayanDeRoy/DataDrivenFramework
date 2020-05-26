@@ -1,0 +1,66 @@
+26/05/2020 23:20:17 ApplicationLogger Config Properties file loaded
+26/05/2020 23:20:22 ApplicationLogger Chrome Browser Opened
+26/05/2020 23:20:27 ApplicationLogger Application Launched: http://www.way2automation.com/angularjs-protractor/banking/#/login
+26/05/2020 23:20:28 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_DOLLAR_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
+26/05/2020 23:20:28 ApplicationLogger Clicked on Home Tab
+26/05/2020 23:20:29 ApplicationLogger Clicked on Bank Manager Login Tab
+26/05/2020 23:20:29 ApplicationLogger Clicked on Add Customer Tab
+26/05/2020 23:20:29 ApplicationLogger Sayan as First Name Entered and Verified
+26/05/2020 23:20:30 ApplicationLogger De Roy as Last Name Entered and Verified
+26/05/2020 23:20:31 ApplicationLogger 560100 as Post Code Entered and Verified
+26/05/2020 23:20:31 ApplicationLogger Clicked on Add Customer button
+26/05/2020 23:20:31 ApplicationLogger Clicked on 'OK' button on alert window
+26/05/2020 23:20:31 ApplicationLogger Clicked on Open Account Tab
+26/05/2020 23:20:32 ApplicationLogger Sayan De Roy selected as a Customer for Account Opening
+26/05/2020 23:20:32 ApplicationLogger Dollar selected as a Currency for Account Opening
+26/05/2020 23:20:32 ApplicationLogger Clicked on Process button
+26/05/2020 23:20:32 ApplicationLogger Clicked on 'OK' button on alert window
+26/05/2020 23:20:32 ApplicationLogger Account Opened successfully with AccID is: 1016
+26/05/2020 23:20:33 ApplicationLogger Clicked on Customers Tab
+26/05/2020 23:20:34 ApplicationLogger Successfully verified Newly created Account in Customers table
+26/05/2020 23:20:34 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_DOLLAR_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+26/05/2020 23:20:35 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_POUND_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
+26/05/2020 23:20:35 ApplicationLogger Clicked on Home Tab
+26/05/2020 23:20:35 ApplicationLogger Clicked on Bank Manager Login Tab
+26/05/2020 23:20:35 ApplicationLogger Clicked on Add Customer Tab
+26/05/2020 23:20:36 ApplicationLogger Biplab as First Name Entered and Verified
+26/05/2020 23:20:36 ApplicationLogger Ghosh as Last Name Entered and Verified
+26/05/2020 23:20:36 ApplicationLogger 700153 as Post Code Entered and Verified
+26/05/2020 23:20:36 ApplicationLogger Clicked on Add Customer button
+26/05/2020 23:20:36 ApplicationLogger Clicked on 'OK' button on alert window
+26/05/2020 23:20:37 ApplicationLogger Clicked on Open Account Tab
+26/05/2020 23:20:37 ApplicationLogger Biplab Ghosh selected as a Customer for Account Opening
+26/05/2020 23:20:37 ApplicationLogger Pound selected as a Currency for Account Opening
+26/05/2020 23:20:38 ApplicationLogger Clicked on Process button
+26/05/2020 23:20:38 ApplicationLogger Clicked on 'OK' button on alert window
+26/05/2020 23:20:38 ApplicationLogger Account Opened successfully with AccID is: 1017
+26/05/2020 23:20:38 ApplicationLogger Clicked on Customers Tab
+26/05/2020 23:20:39 ApplicationLogger Successfully verified Newly created Account in Customers table
+26/05/2020 23:20:39 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_POUND_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+26/05/2020 23:20:39 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_RUPEE_ACCOUNT_AND_VERIFY EXECUTION SKIPPED-----------------
+26/05/2020 23:20:40 ApplicationLogger -----------------Test Case: VERIFY_INITIAL_ACCOUNT_BALANCE EXECUTION STARTED-----------------
+26/05/2020 23:20:40 ApplicationLogger Clicked on Home Tab
+26/05/2020 23:20:40 ApplicationLogger Clicked on Customer Login Tab
+26/05/2020 23:20:40 ApplicationLogger Verified Login button is not visible before selecting the customer
+26/05/2020 23:20:41 ApplicationLogger Customer Selected for Login: Sayan De Roy
+26/05/2020 23:20:41 ApplicationLogger Clicked on Customer Login button
+26/05/2020 23:20:41 ApplicationLogger Successfully verified Account Number, Currency and Balance
+26/05/2020 23:20:41 ApplicationLogger ----------------Test Case: VERIFY_INITIAL_ACCOUNT_BALANCE EXECUTION COMPLETED----------------
+26/05/2020 23:20:41 ApplicationLogger -----------------Test Case: DEPOSIT_AMOUNT_AND_VERIFY EXECUTION STARTED-----------------
+26/05/2020 23:20:42 ApplicationLogger Successfully deposited amount: 1000
+26/05/2020 23:20:42 ApplicationLogger Successfully verify the balance after deposit : 1000
+26/05/2020 23:20:42 ApplicationLogger ----------------Test Case: DEPOSIT_AMOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+26/05/2020 23:20:43 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_AND_VERIFY EXECUTION STARTED-----------------
+26/05/2020 23:20:43 ApplicationLogger Successfully withdrawn amount: 400
+26/05/2020 23:20:43 ApplicationLogger Successfully verify the balance after withdraw : 600
+26/05/2020 23:20:44 ApplicationLogger ----------------Test Case: WITHDRAW_AMOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+26/05/2020 23:20:44 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_MORE_THAN_BALANCE EXECUTION STARTED-----------------
+26/05/2020 23:20:54 ApplicationLogger 700 is greater than balance hence withdraw failed
+26/05/2020 23:20:55 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_MORE_THAN_BALANCE EXECUTION FAILED-----------------
+26/05/2020 23:20:55 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER EXECUTION STARTED-----------------
+26/05/2020 23:21:06 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER EXECUTION FAILED-----------------
+26/05/2020 23:21:06 ApplicationLogger -----------------Test Case: VERIFY_NEWLY_CREATED_CUSTOMER_IN_CUSTOMER_TABLE EXECUTION STARTED-----------------
+26/05/2020 23:21:06 ApplicationLogger -----------------Test Case: VERIFY_NEWLY_CREATED_CUSTOMER_IN_CUSTOMER_TABLE EXECUTION SKIPPED-----------------
+26/05/2020 23:21:06 ApplicationLogger -----------------Test Case: DELETE_NEWLY_CREATED_CUSTOMER EXECUTION STARTED-----------------
+26/05/2020 23:21:06 ApplicationLogger -----------------Test Case: DELETE_NEWLY_CREATED_CUSTOMER EXECUTION SKIPPED-----------------
+26/05/2020 23:21:07 ApplicationLogger All Browser Closed

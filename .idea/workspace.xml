@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.target/surefire-reports/failureScreenShots/Verify_Newly_Created_Customer_In_Customer_Table.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.target/surefire-reports/failureScreenShots/Withdraw_Amount_More_Than_Balance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataDrivenApproch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/listeners/CustomListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/AddCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/BankManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/CustomerLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/CustomersTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/OpenAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/pageobjects/UserHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/CreateDeleteCustFunctionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/DBValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/DepositWithdrawFunctionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/OpenAccountFunctionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/utilities/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/executables/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/executables/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testngXML/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/XYZ BANK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/XYZ BANK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/extentReports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer_Open_A_Dollar_Account_And_Verify.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer_Open_A_Pound_Account_And_Verify.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer_Open_A_Rupee_Account_And_Verify.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Verify_Initial_Account_Balance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Verify_Newly_Created_Customer_In_Customer_Table.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Withdraw_Amount_More_Than_Balance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.DepositWithdrawFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.OpenAccountFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/XYZ BANK.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/base/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/listeners/CustomListeners.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/AddCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/BankManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/CustomerLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/CustomersTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/OpenAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/pageobjects/UserHomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/testcases/CreateDeleteCustFunctionality.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/testcases/DBValidation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/testcases/DepositWithdrawFunctionality.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/testcases/OpenAccountFunctionality.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/utilities/ExtentManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/excel/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/excel/~$TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/executables/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/executables/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/extentconfig/ReportsConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/testngXML/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/XYZ BANK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/XYZ BANK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustomerFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.DepositWithdrawFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.OpenAccountFunctionality.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/XYZ BANK.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1btF62ZJhK9KVy0IratxKDErBzs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="LogHighlighting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\resources" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\java" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\target\surefire-reports\htmlReports" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basePackage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\java\com\infy\practice" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\executables" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml">
+    <configuration name="DBValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.DBValidation" />
+      <module name="DataDrivenApproch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testngXML/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateDeleteCustomerFunctionality.Create_New_Customer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.CreateDeleteCustomerFunctionality" />
+      <option name="METHOD_NAME" value="Create_New_Customer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dummy.launchApplication" type="TestNG" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.Dummy" />
+      <option name="METHOD_NAME" value="launchApplication" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenAccountFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.OpenAccountFunctionality" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.OpenAccountFunctionality" />
+      <option name="METHOD_NAME" value="Create_New_Customer_Open_A_Dollar_Account_And_Verify" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Dummy.launchApplication" />
+      <item itemvalue="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" />
+      <item itemvalue="TestNG.CreateDeleteCustomerFunctionality.Create_New_Customer" />
+      <item itemvalue="TestNG.OpenAccountFunctionality" />
+      <item itemvalue="TestNG.OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify" />
+      <item itemvalue="Application.DBValidation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" />
+        <item itemvalue="Application.DBValidation" />
+        <item itemvalue="TestNG.CreateDeleteCustomerFunctionality.Create_New_Customer" />
+        <item itemvalue="TestNG.OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify" />
+        <item itemvalue="TestNG.OpenAccountFunctionality" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
