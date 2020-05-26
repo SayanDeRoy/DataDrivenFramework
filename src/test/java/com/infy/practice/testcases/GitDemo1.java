@@ -1,4 +1,4 @@
 package com.infy.practice.testcases;
 
-public class GitDemo {
+public class GitDemo1 {
 }
