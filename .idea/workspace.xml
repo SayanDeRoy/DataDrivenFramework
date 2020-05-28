@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/DifferentActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/DifferentActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DifferentActions.Upload_File_Using_Send_Keys">
+  <component name="RunManager" selected="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml">
     <configuration name="DBValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.DBValidation" />
       <module name="DataDrivenApproch" />
@@ -146,10 +149,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" />
         <item itemvalue="TestNG.DifferentActions.Upload_File_Using_Send_Keys" />
         <item itemvalue="TestNG.DifferentActions.Window_Authorization" />
         <item itemvalue="TestNG.CreateDeleteCustFunctionality.Create_New_Customer" />
-        <item itemvalue="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" />
         <item itemvalue="Application.DBValidation" />
       </list>
     </recent_temporary>

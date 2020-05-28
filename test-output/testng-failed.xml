@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="com.infy.practice.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="XYZ BANK(failed)">
+    <classes>
+      <class name="com.infy.practice.testcases.CreateDeleteCustFunctionality">
+        <methods>
+          <include name="Delete_Newly_Created_Customer"/>
+          <include name="Verify_Newly_Created_Customer_In_Customer_Table"/>
+          <include name="setUp"/>
+          <include name="Create_New_Customer"/>
+          <include name="tearDown"/>
+          <include name="PageObjectsInitialization"/>
+        </methods>
+      </class> <!-- com.infy.practice.testcases.CreateDeleteCustFunctionality -->
+      <class name="com.infy.practice.testcases.OpenAccountFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="PageObjectsInitialization"/>
+          <include name="tearDown"/>
+          <include name="Create_New_Customer_Open_A_Rupee_Account_And_Verify"/>
+        </methods>
+      </class> <!-- com.infy.practice.testcases.OpenAccountFunctionality -->
+      <class name="com.infy.practice.testcases.DepositWithdrawFunctionality">
+        <methods>
+          <include name="Withdraw_Amount_More_Than_Balance"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="PageObjectsInitialization"/>
+          <include name="Withdraw_Amount_And_Verify"/>
+          <include name="Deposit_Amount_And_Verify"/>
+          <include name="Verify_Initial_Account_Balance"/>
+        </methods>
+      </class> <!-- com.infy.practice.testcases.DepositWithdrawFunctionality -->
+    </classes>
+  </test> <!-- XYZ BANK(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

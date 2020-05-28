@@ -1,0 +1,322 @@
+<html>
+<head>
+<title>TestNG:  XYZ BANK</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>XYZ BANK</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/3/1</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 28 22:09:00 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26812 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.infy.practice.testcases.CreateDeleteCustFunctionality.Delete_Newly_Created_Customer()'><b>Delete_Newly_Created_Customer</b><br>Test class: com.infy.practice.testcases.CreateDeleteCustFunctionality</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-click=&quot;deleteCust(cust)&quot;&gt;...&lt;/button&gt; is not clickable at point (552, 496). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot; src=&quot;about:blank&quot; data-test-id=&quot;ChatWidgetWindow-iframe&quot; title=&quot;Zendesk Chat widget window&quot;&gt;&lt;/iframe&gt;
+  (Session info: headless chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4SC5RBR&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\sayan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f46a0f8b39483ffa17a289f9333ad462
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.infy.practice.pageobjects.CustomersTable.deleteCustomerAndVerify(CustomersTable.java:83)
+	at com.infy.practice.testcases.CreateDeleteCustFunctionality.Delete_Newly_Created_Customer(CreateDeleteCustFunctionality.java:48)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404586280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404586280'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-click=&quot;deleteCust(cust)&quot;&gt;...&lt;/button&gt; is not clickable at point (552, 496). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; style=&quot;background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;&quot; src=&quot;about:blank&quot; data-test-id=&quot;ChatWidgetWindow-iframe&quot; title=&quot;Zendesk Chat widget window&quot;&gt;&lt;/iframe&gt;
+  (Session info: headless chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4SC5RBR&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\Users\sayan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f46a0f8b39483ffa17a289f9333ad462
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.infy.practice.pageobjects.CustomersTable.deleteCustomerAndVerify(CustomersTable.java:83)
+	at com.infy.practice.testcases.CreateDeleteCustFunctionality.Delete_Newly_Created_Customer(CreateDeleteCustFunctionality.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+</pre></div></td>
+<td>1</td>
+<td>com.infy.practice.testcases.CreateDeleteCustFunctionality@5891e32e</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.CreateDeleteCustFunctionality.Verify_Newly_Created_Customer_In_Customer_Table()'><b>Verify_Newly_Created_Customer_In_Customer_Table</b><br>Test class: com.infy.practice.testcases.CreateDeleteCustFunctionality</td>
+<td><div><pre>java.lang.AssertionError: expected [560101] but found [560100]
+	at com.infy.practice.pageobjects.CustomersTable.verifyNewCustomerPresentInsideCustomerTable(CustomersTable.java:48)
+	at com.infy.practice.testcases.CreateDeleteCustFunctionality.Verify_Newly_Created_Customer_In_Customer_Table(CreateDeleteCustFunctionality.java:40)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1288052401", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1288052401'><pre>java.lang.AssertionError: expected [560101] but found [560100]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.infy.practice.pageobjects.CustomersTable.verifyNewCustomerPresentInsideCustomerTable(CustomersTable.java:48)
+	at com.infy.practice.testcases.CreateDeleteCustFunctionality.Verify_Newly_Created_Customer_In_Customer_Table(CreateDeleteCustFunctionality.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+</pre></div></td>
+<td>1</td>
+<td>com.infy.practice.testcases.CreateDeleteCustFunctionality@5891e32e</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_More_Than_Balance()'><b>Withdraw_Amount_More_Than_Balance</b><br>Test class: com.infy.practice.testcases.DepositWithdrawFunctionality</td>
+<td><div><pre>java.lang.AssertionError: expected [500] but found [600]
+	at com.infy.practice.pageobjects.UserHomePage.verifyAmountAfterWithdrawFailure(UserHomePage.java:135)
+	at com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_More_Than_Balance(DepositWithdrawFunctionality.java:51)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace131709548", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131709548'><pre>java.lang.AssertionError: expected [500] but found [600]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.infy.practice.pageobjects.UserHomePage.verifyAmountAfterWithdrawFailure(UserHomePage.java:135)
+	at com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_More_Than_Balance(DepositWithdrawFunctionality.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+</pre></div></td>
+<td>10</td>
+<td>com.infy.practice.testcases.DepositWithdrawFunctionality@8e24743</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.infy.practice.testcases.CreateDeleteCustFunctionality.Create_New_Customer()'><b>Create_New_Customer</b><br>Test class: com.infy.practice.testcases.CreateDeleteCustFunctionality</td>
+<td></td>
+<td>2</td>
+<td>com.infy.practice.testcases.CreateDeleteCustFunctionality@5891e32e</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify()'><b>Create_New_Customer_Open_A_Dollar_Account_And_Verify</b><br>Test class: com.infy.practice.testcases.OpenAccountFunctionality</td>
+<td></td>
+<td>2</td>
+<td>com.infy.practice.testcases.OpenAccountFunctionality@cb0ed20</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.OpenAccountFunctionality.Create_New_Customer_Open_A_Pound_Account_And_Verify()'><b>Create_New_Customer_Open_A_Pound_Account_And_Verify</b><br>Test class: com.infy.practice.testcases.OpenAccountFunctionality</td>
+<td></td>
+<td>2</td>
+<td>com.infy.practice.testcases.OpenAccountFunctionality@cb0ed20</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.DepositWithdrawFunctionality.Deposit_Amount_And_Verify()'><b>Deposit_Amount_And_Verify</b><br>Test class: com.infy.practice.testcases.DepositWithdrawFunctionality</td>
+<td></td>
+<td>0</td>
+<td>com.infy.practice.testcases.DepositWithdrawFunctionality@8e24743</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.DepositWithdrawFunctionality.Verify_Initial_Account_Balance()'><b>Verify_Initial_Account_Balance</b><br>Test class: com.infy.practice.testcases.DepositWithdrawFunctionality</td>
+<td></td>
+<td>0</td>
+<td>com.infy.practice.testcases.DepositWithdrawFunctionality@8e24743</td></tr>
+<tr>
+<td title='com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_And_Verify()'><b>Withdraw_Amount_And_Verify</b><br>Test class: com.infy.practice.testcases.DepositWithdrawFunctionality</td>
+<td></td>
+<td>0</td>
+<td>com.infy.practice.testcases.DepositWithdrawFunctionality@8e24743</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.infy.practice.testcases.OpenAccountFunctionality.Create_New_Customer_Open_A_Rupee_Account_And_Verify()'><b>Create_New_Customer_Open_A_Rupee_Account_And_Verify</b><br>Test class: com.infy.practice.testcases.OpenAccountFunctionality</td>
+<td><div><pre>org.testng.SkipException: Create_New_Customer_Open_A_Rupee_Account_And_Verify is set as &apos;N&apos; for Run Mode
+	at com.infy.practice.listeners.CustomListeners.onTestStart(CustomListeners.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace284123040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace284123040'><pre>org.testng.SkipException: Create_New_Customer_Open_A_Rupee_Account_And_Verify is set as &apos;N&apos; for Run Mode
+	at com.infy.practice.listeners.CustomListeners.onTestStart(CustomListeners.java:20)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+</pre></div></td>
+<td>0</td>
+<td>com.infy.practice.testcases.OpenAccountFunctionality@cb0ed20</td></tr>
+</table><p>
+</body>
+</html>
