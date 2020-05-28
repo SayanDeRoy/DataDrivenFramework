@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/GitDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/GitDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testngXML/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testngXML/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +29,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/files" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="LogHighlighting" />
@@ -42,11 +47,11 @@
       <recent name="basePackage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\files" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\executables" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\java\com\infy\practice" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\executables" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml">
+  <component name="RunManager" selected="TestNG.DifferentActions.Upload_File_Using_Send_Keys">
     <configuration name="DBValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.DBValidation" />
       <module name="DataDrivenApproch" />
@@ -87,11 +92,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateDeleteCustomerFunctionality.Create_New_Customer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateDeleteCustFunctionality.Create_New_Customer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataDrivenApproch" />
       <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.CreateDeleteCustomerFunctionality" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.CreateDeleteCustFunctionality" />
       <option name="METHOD_NAME" value="Create_New_Customer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DifferentActions.Upload_File_Using_Send_Keys" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.DifferentActions" />
+      <option name="METHOD_NAME" value="Upload_File_Using_Send_Keys" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DifferentActions.Window_Authorization" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenApproch" />
+      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.DifferentActions" />
+      <option name="METHOD_NAME" value="Window_Authorization" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,44 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAccountFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataDrivenApproch" />
-      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.OpenAccountFunctionality" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataDrivenApproch" />
-      <option name="PACKAGE_NAME" value="com.infy.practice.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.infy.practice.testcases.OpenAccountFunctionality" />
-      <option name="METHOD_NAME" value="Create_New_Customer_Open_A_Dollar_Account_And_Verify" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.DBValidation" />
       <item itemvalue="TestNG.Dummy.launchApplication" />
       <item itemvalue="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" />
-      <item itemvalue="TestNG.CreateDeleteCustomerFunctionality.Create_New_Customer" />
-      <item itemvalue="TestNG.OpenAccountFunctionality" />
-      <item itemvalue="TestNG.OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify" />
-      <item itemvalue="Application.DBValidation" />
+      <item itemvalue="TestNG.DifferentActions.Window_Authorization" />
+      <item itemvalue="TestNG.CreateDeleteCustFunctionality.Create_New_Customer" />
+      <item itemvalue="TestNG.DifferentActions.Upload_File_Using_Send_Keys" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DifferentActions.Upload_File_Using_Send_Keys" />
+        <item itemvalue="TestNG.DifferentActions.Window_Authorization" />
+        <item itemvalue="TestNG.CreateDeleteCustFunctionality.Create_New_Customer" />
         <item itemvalue="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" />
         <item itemvalue="Application.DBValidation" />
-        <item itemvalue="TestNG.CreateDeleteCustomerFunctionality.Create_New_Customer" />
-        <item itemvalue="TestNG.OpenAccountFunctionality.Create_New_Customer_Open_A_Dollar_Account_And_Verify" />
-        <item itemvalue="TestNG.OpenAccountFunctionality" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +163,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

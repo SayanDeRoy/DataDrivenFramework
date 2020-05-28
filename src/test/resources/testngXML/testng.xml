@@ -12,4 +12,9 @@
             <class name="com.infy.practice.testcases.DepositWithdrawFunctionality"/>
         </classes>
     </test>
+    <test name="Different Actions on window">
+        <classes>
+            <class name="com.infy.practice.testcases.DifferentActions"/>
+        </classes>
+    </test>
 </suite>
