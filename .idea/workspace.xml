@@ -3,33 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/listeners/CustomListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/listeners/CustomListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/extentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/extentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/infy/practice/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/infy/practice/listeners/CustomListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/listeners/CustomListeners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Different Actions on window.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Different Actions on window.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Different Actions on window.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Different Actions on window.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/XYZ BANK.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/XYZ BANK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/XYZ BANK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/XYZ BANK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustFunctionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustFunctionality.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.DepositWithdrawFunctionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.DepositWithdrawFunctionality.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.DifferentActions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.DifferentActions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.OpenAccountFunctionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.infy.practice.testcases.OpenAccountFunctionality.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
