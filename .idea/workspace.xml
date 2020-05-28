@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/..target/surefire-reports/htmlReportsWithdraw_Amount_More_Than_Balance.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.target/surefire-reports/failureScreenShots/Verify_Newly_Created_Customer_In_Customer_Table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.target/surefire-reports/failureScreenShots/Withdraw_Amount_More_Than_Balance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.target/surefire-reports/htmlReportsWithdraw_Amount_More_Than_Balance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,22 +36,22 @@
     <property name="settings.editor.selected.configurable" value="LogHighlighting" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\resources" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\java" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\target\surefire-reports\htmlReports" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="basePackage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\files" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\executables" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basePackage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\resources" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\java" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\target\surefire-reports\htmlReports" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
