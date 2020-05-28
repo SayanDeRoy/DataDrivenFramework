@@ -6,24 +6,6 @@
   </listeners>
   <test thread-count="5" name="XYZ BANK(failed)">
     <classes>
-      <class name="com.infy.practice.testcases.CreateDeleteCustFunctionality">
-        <methods>
-          <include name="Delete_Newly_Created_Customer"/>
-          <include name="Verify_Newly_Created_Customer_In_Customer_Table"/>
-          <include name="setUp"/>
-          <include name="Create_New_Customer"/>
-          <include name="tearDown"/>
-          <include name="PageObjectsInitialization"/>
-        </methods>
-      </class> <!-- com.infy.practice.testcases.CreateDeleteCustFunctionality -->
-      <class name="com.infy.practice.testcases.OpenAccountFunctionality">
-        <methods>
-          <include name="setUp"/>
-          <include name="PageObjectsInitialization"/>
-          <include name="tearDown"/>
-          <include name="Create_New_Customer_Open_A_Rupee_Account_And_Verify"/>
-        </methods>
-      </class> <!-- com.infy.practice.testcases.OpenAccountFunctionality -->
       <class name="com.infy.practice.testcases.DepositWithdrawFunctionality">
         <methods>
           <include name="Withdraw_Amount_More_Than_Balance"/>

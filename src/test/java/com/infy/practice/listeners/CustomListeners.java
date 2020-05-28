@@ -53,7 +53,7 @@ public class CustomListeners extends TestBase implements ITestListener {
         //Extent Reports
 
         extentTest.log(LogStatus.FAIL, testCaseName.toUpperCase() + " FAILED with Exception: " + result.getThrowable());
-        extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenShotPath));
+        extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture("."+screenShotPath));
         extentReport.endTest(extentTest);
         extentReport.flush();
 

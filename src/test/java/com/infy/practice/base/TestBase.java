@@ -154,7 +154,8 @@ public class TestBase {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
         String destFile = System.getProperty("user.dir")+"\\target\\surefire-reports\\htmlReports\\" + fileName + ".jpg";
-        //String destFile = "./target/surefire-reports/htmlReports/failureScreenShots/"+fileName+".png";
+        //String destFile = "./target/surefire-reports/htmlReports/"+fileName+".png";
+
         File dest = new File(destFile);
 
         try {
