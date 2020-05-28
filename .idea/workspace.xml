@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testngXML/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testngXML/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/DifferentActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/testcases/DifferentActions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

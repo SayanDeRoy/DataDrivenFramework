@@ -29,8 +29,6 @@ public class DifferentActions extends TestBase {
     public void Upload_File_Using_Send_Keys() throws IOException, InterruptedException {
         driver.get("https://altoconvertpdftojpg.com/");
         driver.findElement(By.xpath("//button[@id='dropzoneInput-label']")).click();
-        Thread.sleep(3000);
-
         Runtime.getRuntime().exec("C:\\Selenium Drivers\\AutoIT Script\\uploadFile.exe");
 
 
