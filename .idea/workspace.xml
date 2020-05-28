@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer_Open_A_Dollar_Account_And_Verify.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer_Open_A_Pound_Account_And_Verify.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Create_New_Customer_Open_A_Rupee_Account_And_Verify.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Delete_Newly_Created_Customer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Verify_Initial_Account_Balance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Verify_Newly_Created_Customer_In_Customer_Table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/failureScreenShots/Withdraw_Amount_More_Than_Balance.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
