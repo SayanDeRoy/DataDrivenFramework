@@ -30,7 +30,6 @@ public class TestBase {
      * ExtentReports
      * DB
      * Excel
-     * Mail
      * Jenkins
      */
 
