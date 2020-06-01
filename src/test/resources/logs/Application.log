@@ -1,103 +1,104 @@
-29/05/2020 01:48:58 ApplicationLogger Config Properties file loaded
-29/05/2020 01:49:03 ApplicationLogger Chrome Browser Opened
-29/05/2020 01:49:06 ApplicationLogger Application Launched: http://www.way2automation.com/angularjs-protractor/banking/#/login
-29/05/2020 01:49:08 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER EXECUTION STARTED-----------------
-29/05/2020 01:49:08 ApplicationLogger Clicked on Bank Manager Login Tab
-29/05/2020 01:49:08 ApplicationLogger Clicked on Add Customer Tab
-29/05/2020 01:49:09 ApplicationLogger Sayan as First Name Entered and Verified
-29/05/2020 01:49:09 ApplicationLogger De Roy as Last Name Entered and Verified
-29/05/2020 01:49:10 ApplicationLogger 560100 as Post Code Entered and Verified
-29/05/2020 01:49:10 ApplicationLogger Clicked on Add Customer button
-29/05/2020 01:49:10 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:10 ApplicationLogger Customer Created successfully with CustID is: 6
-29/05/2020 01:49:10 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER EXECUTION COMPLETED----------------
-29/05/2020 01:49:11 ApplicationLogger -----------------Test Case: VERIFY_NEWLY_CREATED_CUSTOMER_IN_CUSTOMER_TABLE EXECUTION STARTED-----------------
-29/05/2020 01:49:11 ApplicationLogger Clicked on Home Tab
-29/05/2020 01:49:11 ApplicationLogger Clicked on Bank Manager Login Tab
-29/05/2020 01:49:11 ApplicationLogger Clicked on Customers Tab
-29/05/2020 01:49:12 ApplicationLogger Successfully verified Newly created customer in Customers table
-29/05/2020 01:49:12 ApplicationLogger ----------------Test Case: VERIFY_NEWLY_CREATED_CUSTOMER_IN_CUSTOMER_TABLE EXECUTION COMPLETED----------------
-29/05/2020 01:49:12 ApplicationLogger -----------------Test Case: DELETE_NEWLY_CREATED_CUSTOMER EXECUTION STARTED-----------------
-29/05/2020 01:49:12 ApplicationLogger Clicked on Home Tab
-29/05/2020 01:49:13 ApplicationLogger Clicked on Bank Manager Login Tab
-29/05/2020 01:49:13 ApplicationLogger Clicked on Customers Tab
-29/05/2020 01:49:14 ApplicationLogger Successfully Deleted Newly created customer in Customers table
-29/05/2020 01:49:14 ApplicationLogger ----------------Test Case: DELETE_NEWLY_CREATED_CUSTOMER EXECUTION COMPLETED----------------
-29/05/2020 01:49:14 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_DOLLAR_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
-29/05/2020 01:49:14 ApplicationLogger Clicked on Home Tab
-29/05/2020 01:49:14 ApplicationLogger Clicked on Bank Manager Login Tab
-29/05/2020 01:49:14 ApplicationLogger Clicked on Add Customer Tab
-29/05/2020 01:49:15 ApplicationLogger Sayan as First Name Entered and Verified
-29/05/2020 01:49:15 ApplicationLogger De Roy as Last Name Entered and Verified
-29/05/2020 01:49:15 ApplicationLogger 560100 as Post Code Entered and Verified
-29/05/2020 01:49:15 ApplicationLogger Clicked on Add Customer button
-29/05/2020 01:49:15 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:15 ApplicationLogger Clicked on Open Account Tab
-29/05/2020 01:49:16 ApplicationLogger Sayan De Roy selected as a Customer for Account Opening
-29/05/2020 01:49:16 ApplicationLogger Dollar selected as a Currency for Account Opening
-29/05/2020 01:49:16 ApplicationLogger Clicked on Process button
-29/05/2020 01:49:16 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:16 ApplicationLogger Account Opened successfully with AccID is: 1016
-29/05/2020 01:49:17 ApplicationLogger Clicked on Customers Tab
-29/05/2020 01:49:17 ApplicationLogger Successfully verified Newly created Account in Customers table
-29/05/2020 01:49:18 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_DOLLAR_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
-29/05/2020 01:49:18 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_POUND_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
-29/05/2020 01:49:18 ApplicationLogger Clicked on Home Tab
-29/05/2020 01:49:18 ApplicationLogger Clicked on Bank Manager Login Tab
-29/05/2020 01:49:18 ApplicationLogger Clicked on Add Customer Tab
-29/05/2020 01:49:18 ApplicationLogger Biplab as First Name Entered and Verified
-29/05/2020 01:49:19 ApplicationLogger Ghosh as Last Name Entered and Verified
-29/05/2020 01:49:19 ApplicationLogger 700153 as Post Code Entered and Verified
-29/05/2020 01:49:19 ApplicationLogger Clicked on Add Customer button
-29/05/2020 01:49:19 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:19 ApplicationLogger Clicked on Open Account Tab
-29/05/2020 01:49:19 ApplicationLogger Biplab Ghosh selected as a Customer for Account Opening
-29/05/2020 01:49:20 ApplicationLogger Pound selected as a Currency for Account Opening
-29/05/2020 01:49:20 ApplicationLogger Clicked on Process button
-29/05/2020 01:49:20 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:20 ApplicationLogger Account Opened successfully with AccID is: 1017
-29/05/2020 01:49:20 ApplicationLogger Clicked on Customers Tab
-29/05/2020 01:49:21 ApplicationLogger Successfully verified Newly created Account in Customers table
-29/05/2020 01:49:21 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_POUND_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
-29/05/2020 01:49:21 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_RUPEE_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
-29/05/2020 01:49:21 ApplicationLogger Clicked on Home Tab
-29/05/2020 01:49:21 ApplicationLogger Clicked on Bank Manager Login Tab
-29/05/2020 01:49:21 ApplicationLogger Clicked on Add Customer Tab
-29/05/2020 01:49:21 ApplicationLogger Arijit as First Name Entered and Verified
-29/05/2020 01:49:22 ApplicationLogger Banerjee as Last Name Entered and Verified
-29/05/2020 01:49:22 ApplicationLogger 842614 as Post Code Entered and Verified
-29/05/2020 01:49:22 ApplicationLogger Clicked on Add Customer button
-29/05/2020 01:49:22 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:22 ApplicationLogger Clicked on Open Account Tab
-29/05/2020 01:49:22 ApplicationLogger Arijit Banerjee selected as a Customer for Account Opening
-29/05/2020 01:49:23 ApplicationLogger Rupee selected as a Currency for Account Opening
-29/05/2020 01:49:23 ApplicationLogger Clicked on Process button
-29/05/2020 01:49:23 ApplicationLogger Clicked on 'OK' button on alert window
-29/05/2020 01:49:23 ApplicationLogger Account Opened successfully with AccID is: 1018
-29/05/2020 01:49:23 ApplicationLogger Clicked on Customers Tab
-29/05/2020 01:49:24 ApplicationLogger Successfully verified Newly created Account in Customers table
-29/05/2020 01:49:24 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_RUPEE_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
-29/05/2020 01:49:24 ApplicationLogger -----------------Test Case: VERIFY_INITIAL_ACCOUNT_BALANCE EXECUTION STARTED-----------------
-29/05/2020 01:49:24 ApplicationLogger Clicked on Home Tab
-29/05/2020 01:49:24 ApplicationLogger Clicked on Customer Login Tab
-29/05/2020 01:49:24 ApplicationLogger Verified Login button is not visible before selecting the customer
-29/05/2020 01:49:25 ApplicationLogger Customer Selected for Login: Sayan De Roy
-29/05/2020 01:49:25 ApplicationLogger Clicked on Customer Login button
-29/05/2020 01:49:25 ApplicationLogger Successfully verified Account Number, Currency and Balance
-29/05/2020 01:49:25 ApplicationLogger ----------------Test Case: VERIFY_INITIAL_ACCOUNT_BALANCE EXECUTION COMPLETED----------------
-29/05/2020 01:49:25 ApplicationLogger -----------------Test Case: DEPOSIT_AMOUNT_AND_VERIFY EXECUTION STARTED-----------------
-29/05/2020 01:49:26 ApplicationLogger Successfully deposited amount: 1000
-29/05/2020 01:49:26 ApplicationLogger Successfully verify the balance after deposit : 1000
-29/05/2020 01:49:26 ApplicationLogger ----------------Test Case: DEPOSIT_AMOUNT_AND_VERIFY EXECUTION COMPLETED----------------
-29/05/2020 01:49:26 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_AND_VERIFY EXECUTION STARTED-----------------
-29/05/2020 01:49:27 ApplicationLogger Successfully withdrawn amount: 400
-29/05/2020 01:49:27 ApplicationLogger Successfully verify the balance after withdraw : 600
-29/05/2020 01:49:27 ApplicationLogger ----------------Test Case: WITHDRAW_AMOUNT_AND_VERIFY EXECUTION COMPLETED----------------
-29/05/2020 01:49:27 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_MORE_THAN_BALANCE EXECUTION STARTED-----------------
-29/05/2020 01:49:37 ApplicationLogger 700 is greater than balance hence withdraw failed
-29/05/2020 01:49:38 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_MORE_THAN_BALANCE EXECUTION FAILED-----------------
-29/05/2020 01:49:38 ApplicationLogger -----------------Test Case: UPLOAD_FILE_USING_SEND_KEYS EXECUTION STARTED-----------------
-29/05/2020 01:49:43 ApplicationLogger ----------------Test Case: UPLOAD_FILE_USING_SEND_KEYS EXECUTION COMPLETED----------------
-29/05/2020 01:49:43 ApplicationLogger -----------------Test Case: WINDOW_AUTHORIZATION EXECUTION STARTED-----------------
-29/05/2020 01:49:49 ApplicationLogger ----------------Test Case: WINDOW_AUTHORIZATION EXECUTION COMPLETED----------------
-29/05/2020 01:49:50 ApplicationLogger All Browser Closed
+01/06/2020 19:46:42 ApplicationLogger Config Properties file loaded
+01/06/2020 19:46:49 ApplicationLogger Chrome Browser Opened
+01/06/2020 19:46:54 ApplicationLogger Application Launched: http://www.way2automation.com/angularjs-protractor/banking/#/login
+01/06/2020 19:46:55 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER EXECUTION STARTED-----------------
+01/06/2020 19:46:55 ApplicationLogger Clicked on Bank Manager Login Tab
+01/06/2020 19:46:56 ApplicationLogger Clicked on Add Customer Tab
+01/06/2020 19:46:56 ApplicationLogger Sayan as First Name Entered and Verified
+01/06/2020 19:46:56 ApplicationLogger De Roy as Last Name Entered and Verified
+01/06/2020 19:46:57 ApplicationLogger 560100 as Post Code Entered and Verified
+01/06/2020 19:46:58 ApplicationLogger Clicked on Add Customer button
+01/06/2020 19:46:58 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:46:58 ApplicationLogger Customer Created successfully with CustID is: 6
+01/06/2020 19:46:59 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER EXECUTION COMPLETED----------------
+01/06/2020 19:46:59 ApplicationLogger -----------------Test Case: VERIFY_NEWLY_CREATED_CUSTOMER_IN_CUSTOMER_TABLE EXECUTION STARTED-----------------
+01/06/2020 19:47:00 ApplicationLogger Clicked on Home Tab
+01/06/2020 19:47:00 ApplicationLogger Clicked on Bank Manager Login Tab
+01/06/2020 19:47:00 ApplicationLogger Clicked on Customers Tab
+01/06/2020 19:47:01 ApplicationLogger Successfully verified Newly created customer in Customers table
+01/06/2020 19:47:01 ApplicationLogger ----------------Test Case: VERIFY_NEWLY_CREATED_CUSTOMER_IN_CUSTOMER_TABLE EXECUTION COMPLETED----------------
+01/06/2020 19:47:01 ApplicationLogger -----------------Test Case: DELETE_NEWLY_CREATED_CUSTOMER EXECUTION STARTED-----------------
+01/06/2020 19:47:01 ApplicationLogger Clicked on Home Tab
+01/06/2020 19:47:01 ApplicationLogger Clicked on Bank Manager Login Tab
+01/06/2020 19:47:01 ApplicationLogger Clicked on Customers Tab
+01/06/2020 19:47:02 ApplicationLogger Successfully Deleted Newly created customer in Customers table
+01/06/2020 19:47:02 ApplicationLogger ----------------Test Case: DELETE_NEWLY_CREATED_CUSTOMER EXECUTION COMPLETED----------------
+01/06/2020 19:47:03 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_DOLLAR_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
+01/06/2020 19:47:03 ApplicationLogger Clicked on Home Tab
+01/06/2020 19:47:03 ApplicationLogger Clicked on Bank Manager Login Tab
+01/06/2020 19:47:03 ApplicationLogger Clicked on Add Customer Tab
+01/06/2020 19:47:03 ApplicationLogger Sayan as First Name Entered and Verified
+01/06/2020 19:47:03 ApplicationLogger De Roy as Last Name Entered and Verified
+01/06/2020 19:47:04 ApplicationLogger 560100 as Post Code Entered and Verified
+01/06/2020 19:47:04 ApplicationLogger Clicked on Add Customer button
+01/06/2020 19:47:04 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:47:04 ApplicationLogger Clicked on Open Account Tab
+01/06/2020 19:47:04 ApplicationLogger Sayan De Roy selected as a Customer for Account Opening
+01/06/2020 19:47:05 ApplicationLogger Dollar selected as a Currency for Account Opening
+01/06/2020 19:47:05 ApplicationLogger Clicked on Process button
+01/06/2020 19:47:05 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:47:05 ApplicationLogger Account Opened successfully with AccID is: 1016
+01/06/2020 19:47:05 ApplicationLogger Clicked on Customers Tab
+01/06/2020 19:47:06 ApplicationLogger Successfully verified Newly created Account in Customers table
+01/06/2020 19:47:06 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_DOLLAR_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+01/06/2020 19:47:06 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_POUND_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
+01/06/2020 19:47:06 ApplicationLogger Clicked on Home Tab
+01/06/2020 19:47:07 ApplicationLogger Clicked on Bank Manager Login Tab
+01/06/2020 19:47:07 ApplicationLogger Clicked on Add Customer Tab
+01/06/2020 19:47:07 ApplicationLogger Biplab as First Name Entered and Verified
+01/06/2020 19:47:07 ApplicationLogger Ghosh as Last Name Entered and Verified
+01/06/2020 19:47:07 ApplicationLogger 700153 as Post Code Entered and Verified
+01/06/2020 19:47:07 ApplicationLogger Clicked on Add Customer button
+01/06/2020 19:47:07 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:47:08 ApplicationLogger Clicked on Open Account Tab
+01/06/2020 19:47:08 ApplicationLogger Biplab Ghosh selected as a Customer for Account Opening
+01/06/2020 19:47:08 ApplicationLogger Pound selected as a Currency for Account Opening
+01/06/2020 19:47:08 ApplicationLogger Clicked on Process button
+01/06/2020 19:47:09 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:47:09 ApplicationLogger Account Opened successfully with AccID is: 1017
+01/06/2020 19:47:09 ApplicationLogger Clicked on Customers Tab
+01/06/2020 19:47:10 ApplicationLogger Successfully verified Newly created Account in Customers table
+01/06/2020 19:47:10 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_POUND_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+01/06/2020 19:47:10 ApplicationLogger -----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_RUPEE_ACCOUNT_AND_VERIFY EXECUTION STARTED-----------------
+01/06/2020 19:47:10 ApplicationLogger Clicked on Home Tab
+01/06/2020 19:47:10 ApplicationLogger Clicked on Bank Manager Login Tab
+01/06/2020 19:47:10 ApplicationLogger Clicked on Add Customer Tab
+01/06/2020 19:47:11 ApplicationLogger Arijit as First Name Entered and Verified
+01/06/2020 19:47:11 ApplicationLogger Banerjee as Last Name Entered and Verified
+01/06/2020 19:47:11 ApplicationLogger 842614 as Post Code Entered and Verified
+01/06/2020 19:47:11 ApplicationLogger Clicked on Add Customer button
+01/06/2020 19:47:11 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:47:12 ApplicationLogger Clicked on Open Account Tab
+01/06/2020 19:47:12 ApplicationLogger Arijit Banerjee selected as a Customer for Account Opening
+01/06/2020 19:47:12 ApplicationLogger Rupee selected as a Currency for Account Opening
+01/06/2020 19:47:12 ApplicationLogger Clicked on Process button
+01/06/2020 19:47:12 ApplicationLogger Clicked on 'OK' button on alert window
+01/06/2020 19:47:12 ApplicationLogger Account Opened successfully with AccID is: 1018
+01/06/2020 19:47:13 ApplicationLogger Clicked on Customers Tab
+01/06/2020 19:47:13 ApplicationLogger Successfully verified Newly created Account in Customers table
+01/06/2020 19:47:14 ApplicationLogger ----------------Test Case: CREATE_NEW_CUSTOMER_OPEN_A_RUPEE_ACCOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+01/06/2020 19:47:14 ApplicationLogger -----------------Test Case: VERIFY_INITIAL_ACCOUNT_BALANCE EXECUTION STARTED-----------------
+01/06/2020 19:47:14 ApplicationLogger Clicked on Home Tab
+01/06/2020 19:47:14 ApplicationLogger Clicked on Customer Login Tab
+01/06/2020 19:47:14 ApplicationLogger Verified Login button is not visible before selecting the customer
+01/06/2020 19:47:14 ApplicationLogger Customer Selected for Login: Sayan De Roy
+01/06/2020 19:47:15 ApplicationLogger Clicked on Customer Login button
+01/06/2020 19:47:15 ApplicationLogger Successfully verified Account Number, Currency and Balance
+01/06/2020 19:47:15 ApplicationLogger ----------------Test Case: VERIFY_INITIAL_ACCOUNT_BALANCE EXECUTION COMPLETED----------------
+01/06/2020 19:47:15 ApplicationLogger -----------------Test Case: DEPOSIT_AMOUNT_AND_VERIFY EXECUTION STARTED-----------------
+01/06/2020 19:47:16 ApplicationLogger Successfully deposited amount: 1000
+01/06/2020 19:47:16 ApplicationLogger Successfully verify the balance after deposit : 1000
+01/06/2020 19:47:16 ApplicationLogger ----------------Test Case: DEPOSIT_AMOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+01/06/2020 19:47:16 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_AND_VERIFY EXECUTION STARTED-----------------
+01/06/2020 19:47:16 ApplicationLogger Successfully withdrawn amount: 400
+01/06/2020 19:47:16 ApplicationLogger Successfully verify the balance after withdraw : 600
+01/06/2020 19:47:17 ApplicationLogger ----------------Test Case: WITHDRAW_AMOUNT_AND_VERIFY EXECUTION COMPLETED----------------
+01/06/2020 19:47:17 ApplicationLogger -----------------Test Case: WITHDRAW_AMOUNT_MORE_THAN_BALANCE EXECUTION STARTED-----------------
+01/06/2020 19:47:27 ApplicationLogger 700 is greater than balance hence withdraw failed
+01/06/2020 19:47:27 ApplicationLogger Withdraw Failed because Withdraw amount is greater than available balance
+01/06/2020 19:47:27 ApplicationLogger ----------------Test Case: WITHDRAW_AMOUNT_MORE_THAN_BALANCE EXECUTION COMPLETED----------------
+01/06/2020 19:47:28 ApplicationLogger -----------------Test Case: UPLOAD_FILE_USING_SEND_KEYS EXECUTION STARTED-----------------
+01/06/2020 19:47:38 ApplicationLogger ----------------Test Case: UPLOAD_FILE_USING_SEND_KEYS EXECUTION COMPLETED----------------
+01/06/2020 19:47:38 ApplicationLogger -----------------Test Case: WINDOW_AUTHORIZATION EXECUTION STARTED-----------------
+01/06/2020 19:48:00 ApplicationLogger ----------------Test Case: WINDOW_AUTHORIZATION EXECUTION COMPLETED----------------
+01/06/2020 19:48:03 ApplicationLogger All Browser Closed

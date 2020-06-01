@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 47.063 s <<< FAILURE! - in TestSuite
-com.infy.practice.testcases.CreateDeleteCustFunctionality.Verify_Newly_Created_Customer_In_Customer_Table  Time elapsed: 3.171 s  <<< FAILURE!
-java.lang.AssertionError: expected [560101] but found [560100]
-	at com.infy.practice.testcases.CreateDeleteCustFunctionality.Verify_Newly_Created_Customer_In_Customer_Table(CreateDeleteCustFunctionality.java:40)
-
-com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_More_Than_Balance  Time elapsed: 10.869 s  <<< FAILURE!
-java.lang.AssertionError: expected [500] but found [600]
-	at com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_More_Than_Balance(DepositWithdrawFunctionality.java:51)
-
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 83.693 s - in TestSuite

@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b79462-e7b0-49bb-a9c4-e16cd1da10ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/..target/surefire-reports/htmlReportsWithdraw_Amount_More_Than_Balance.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.target/surefire-reports/failureScreenShots/Verify_Newly_Created_Customer_In_Customer_Table.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.target/surefire-reports/failureScreenShots/Withdraw_Amount_More_Than_Balance.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.target/surefire-reports/htmlReportsWithdraw_Amount_More_Than_Balance.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infy/practice/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/XYZ BANK.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/XYZ BANK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/XYZ BANK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/XYZ BANK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/htmlReports/extentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/htmlReports/extentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustFunctionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.CreateDeleteCustFunctionality.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.DepositWithdrawFunctionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.DepositWithdrawFunctionality.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.OpenAccountFunctionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.infy.practice.testcases.OpenAccountFunctionality.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/XYZ BANK.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/XYZ BANK.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/infy/practice/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/infy/practice/base/TestBase.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +48,10 @@
   </component>
   <component name="ProjectId" id="1btF62ZJhK9KVy0IratxKDErBzs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/files" />
@@ -36,16 +61,6 @@
     <property name="settings.editor.selected.configurable" value="LogHighlighting" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\files" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\executables" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
-      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="basePackage" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\main\resources" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
@@ -53,18 +68,16 @@
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\target\surefire-reports\htmlReports" />
       <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\java" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basePackage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\files" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\executables" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src\test\resources\properties" />
+      <recent name="C:\Users\sayan\IdeaProjects\DataDrivenApproch\src" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml">
     <configuration name="C:/Users/sayan/IdeaProjects/DataDrivenApproch/src/test/resources/testngXML/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -166,12 +179,11 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

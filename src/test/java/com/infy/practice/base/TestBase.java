@@ -11,6 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -55,8 +56,9 @@ public class TestBase {
             if (config.getProperty("browser").equalsIgnoreCase("chrome")) {
                 System.setProperty("webdriver.chrome.driver", "src/test/resources/executables/chromedriver.exe");
                 ChromeOptions option = new ChromeOptions();
+
                 //option.addArguments("headless");
-                driver = new ChromeDriver(option);
+                driver = new ChromeDriver();
                 log.debug("Chrome Browser Opened");
             }
             driver.manage().window().maximize();

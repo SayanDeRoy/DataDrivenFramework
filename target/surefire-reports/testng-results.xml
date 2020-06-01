@@ -1,212 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="2" ignored="4" total="14" passed="7">
+<testng-results skipped="0" failed="0" ignored="4" total="16" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="31267" started-at="2020-05-26T13:58:11 IST" finished-at="2020-05-26T13:58:43 IST">
+  <suite name="All Test Suite" duration-ms="65905" started-at="2020-06-01T19:46:54 IST" finished-at="2020-06-01T19:48:00 IST">
     <groups>
     </groups>
-    <test name="XYZ BANK" duration-ms="31267" started-at="2020-05-26T13:58:11 IST" finished-at="2020-05-26T13:58:43 IST">
-      <class name="com.infy.practice.testcases.OpenAccountFunctionality">
-        <test-method status="PASS" signature="PageObjectsInitialization()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@aecb35a]" name="PageObjectsInitialization" is-config="true" duration-ms="4" started-at="2020-05-26T13:58:22 IST" finished-at="2020-05-26T13:58:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PageObjectsInitialization -->
-        <test-method status="PASS" signature="Create_New_Customer_Open_A_Dollar_Account_And_Verify()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@aecb35a]" name="Create_New_Customer_Open_A_Dollar_Account_And_Verify" duration-ms="3021" started-at="2020-05-26T13:58:22 IST" finished-at="2020-05-26T13:58:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_New_Customer_Open_A_Dollar_Account_And_Verify -->
-        <test-method status="PASS" signature="Create_New_Customer_Open_A_Pound_Account_And_Verify()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@aecb35a]" name="Create_New_Customer_Open_A_Pound_Account_And_Verify" duration-ms="3058" started-at="2020-05-26T13:58:26 IST" finished-at="2020-05-26T13:58:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_New_Customer_Open_A_Pound_Account_And_Verify -->
-        <test-method status="SKIP" signature="Create_New_Customer_Open_A_Rupee_Account_And_Verify()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@aecb35a]" name="Create_New_Customer_Open_A_Rupee_Account_And_Verify" duration-ms="43" started-at="2020-05-26T13:58:29 IST" finished-at="2020-05-26T13:58:29 IST">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Create_New_Customer_Open_A_Rupee_Account_And_Verify is set as 'N' for Run Mode]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Create_New_Customer_Open_A_Rupee_Account_And_Verify is set as 'N' for Run Mode
-at com.infy.practice.listeners.CustomListeners.onTestStart(CustomListeners.java:20)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_New_Customer_Open_A_Rupee_Account_And_Verify -->
-      </class> <!-- com.infy.practice.testcases.OpenAccountFunctionality -->
+    <test name="XYZ BANK" duration-ms="33705" started-at="2020-06-01T19:46:54 IST" finished-at="2020-06-01T19:47:28 IST">
       <class name="com.infy.practice.testcases.DepositWithdrawFunctionality">
-        <test-method status="PASS" signature="PageObjectsInitialization()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@5fcd892a]" name="PageObjectsInitialization" is-config="true" duration-ms="7" started-at="2020-05-26T13:58:29 IST" finished-at="2020-05-26T13:58:29 IST">
+        <test-method status="PASS" signature="PageObjectsInitialization()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@15bfd87]" name="PageObjectsInitialization" is-config="true" duration-ms="8" started-at="2020-06-01T19:47:14 IST" finished-at="2020-06-01T19:47:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageObjectsInitialization -->
-        <test-method status="PASS" signature="Verify_Initial_Account_Balance()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@5fcd892a]" name="Verify_Initial_Account_Balance" duration-ms="1039" started-at="2020-05-26T13:58:29 IST" finished-at="2020-05-26T13:58:30 IST">
+        <test-method status="PASS" signature="Verify_Initial_Account_Balance()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@15bfd87]" name="Verify_Initial_Account_Balance" duration-ms="1206" started-at="2020-06-01T19:47:14 IST" finished-at="2020-06-01T19:47:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Initial_Account_Balance -->
-        <test-method status="PASS" signature="Deposit_Amount_And_Verify()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@5fcd892a]" name="Deposit_Amount_And_Verify" duration-ms="598" started-at="2020-05-26T13:58:30 IST" depends-on-methods="com.infy.practice.testcases.DepositWithdrawFunctionality.Verify_Initial_Account_Balance" finished-at="2020-05-26T13:58:31 IST">
+        <test-method status="PASS" signature="Deposit_Amount_And_Verify()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@15bfd87]" name="Deposit_Amount_And_Verify" duration-ms="671" started-at="2020-06-01T19:47:15 IST" depends-on-methods="com.infy.practice.testcases.DepositWithdrawFunctionality.Verify_Initial_Account_Balance" finished-at="2020-06-01T19:47:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Deposit_Amount_And_Verify -->
-        <test-method status="PASS" signature="Withdraw_Amount_And_Verify()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@5fcd892a]" name="Withdraw_Amount_And_Verify" duration-ms="678" started-at="2020-05-26T13:58:31 IST" depends-on-methods="com.infy.practice.testcases.DepositWithdrawFunctionality.Deposit_Amount_And_Verify" finished-at="2020-05-26T13:58:31 IST">
+        <test-method status="PASS" signature="Withdraw_Amount_And_Verify()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@15bfd87]" name="Withdraw_Amount_And_Verify" duration-ms="651" started-at="2020-06-01T19:47:16 IST" depends-on-methods="com.infy.practice.testcases.DepositWithdrawFunctionality.Deposit_Amount_And_Verify" finished-at="2020-06-01T19:47:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Withdraw_Amount_And_Verify -->
-        <test-method status="FAIL" signature="Withdraw_Amount_More_Than_Balance()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@5fcd892a]" name="Withdraw_Amount_More_Than_Balance" duration-ms="10461" started-at="2020-05-26T13:58:32 IST" depends-on-methods="com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_And_Verify" finished-at="2020-05-26T13:58:42 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [500] but found [600]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [500] but found [600]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.infy.practice.pageobjects.UserHomePage.verifyAmountAfterWithdrawFailure(UserHomePage.java:135)
-at com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_More_Than_Balance(DepositWithdrawFunctionality.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="Withdraw_Amount_More_Than_Balance()[pri:0, instance:com.infy.practice.testcases.DepositWithdrawFunctionality@15bfd87]" name="Withdraw_Amount_More_Than_Balance" duration-ms="10725" started-at="2020-06-01T19:47:17 IST" depends-on-methods="com.infy.practice.testcases.DepositWithdrawFunctionality.Withdraw_Amount_And_Verify" finished-at="2020-06-01T19:47:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Withdraw_Amount_More_Than_Balance -->
       </class> <!-- com.infy.practice.testcases.DepositWithdrawFunctionality -->
-      <class name="com.infy.practice.testcases.CreateDeleteCustFunctionality">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@7dc222ae]" name="setUp" is-config="true" duration-ms="13176" started-at="2020-05-26T13:57:58 IST" finished-at="2020-05-26T13:58:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="PageObjectsInitialization()[pri:0, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@7dc222ae]" name="PageObjectsInitialization" is-config="true" duration-ms="61" started-at="2020-05-26T13:58:11 IST" finished-at="2020-05-26T13:58:11 IST">
+      <class name="com.infy.practice.testcases.OpenAccountFunctionality">
+        <test-method status="PASS" signature="PageObjectsInitialization()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@5427c60c]" name="PageObjectsInitialization" is-config="true" duration-ms="5" started-at="2020-06-01T19:47:02 IST" finished-at="2020-06-01T19:47:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageObjectsInitialization -->
-        <test-method status="PASS" signature="Create_New_Customer()[pri:1, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@7dc222ae]" name="Create_New_Customer" duration-ms="5456" started-at="2020-05-26T13:58:11 IST" finished-at="2020-05-26T13:58:17 IST">
+        <test-method status="PASS" signature="Create_New_Customer_Open_A_Dollar_Account_And_Verify()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@5427c60c]" name="Create_New_Customer_Open_A_Dollar_Account_And_Verify" duration-ms="3543" started-at="2020-06-01T19:47:02 IST" finished-at="2020-06-01T19:47:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_Customer_Open_A_Dollar_Account_And_Verify -->
+        <test-method status="PASS" signature="Create_New_Customer_Open_A_Pound_Account_And_Verify()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@5427c60c]" name="Create_New_Customer_Open_A_Pound_Account_And_Verify" duration-ms="3490" started-at="2020-06-01T19:47:06 IST" finished-at="2020-06-01T19:47:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_Customer_Open_A_Pound_Account_And_Verify -->
+        <test-method status="PASS" signature="Create_New_Customer_Open_A_Rupee_Account_And_Verify()[pri:0, instance:com.infy.practice.testcases.OpenAccountFunctionality@5427c60c]" name="Create_New_Customer_Open_A_Rupee_Account_And_Verify" duration-ms="3607" started-at="2020-06-01T19:47:10 IST" finished-at="2020-06-01T19:47:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_Customer_Open_A_Rupee_Account_And_Verify -->
+      </class> <!-- com.infy.practice.testcases.OpenAccountFunctionality -->
+      <class name="com.infy.practice.testcases.CreateDeleteCustFunctionality">
+        <test-method status="PASS" signature="PageObjectsInitialization()[pri:0, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@80169cf]" name="PageObjectsInitialization" is-config="true" duration-ms="73" started-at="2020-06-01T19:46:54 IST" finished-at="2020-06-01T19:46:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageObjectsInitialization -->
+        <test-method status="PASS" signature="Create_New_Customer()[pri:1, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@80169cf]" name="Create_New_Customer" duration-ms="4640" started-at="2020-06-01T19:46:54 IST" finished-at="2020-06-01T19:46:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_New_Customer -->
-        <test-method status="FAIL" signature="Verify_Newly_Created_Customer_In_Customer_Table()[pri:2, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@7dc222ae]" name="Verify_Newly_Created_Customer_In_Customer_Table" duration-ms="2677" started-at="2020-05-26T13:58:18 IST" depends-on-methods="com.infy.practice.testcases.CreateDeleteCustFunctionality.Create_New_Customer" finished-at="2020-05-26T13:58:21 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [560101] but found [560100]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [560101] but found [560100]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.infy.practice.pageobjects.CustomersTable.verifyNewCustomerPresentInsideCustomerTable(CustomersTable.java:48)
-at com.infy.practice.testcases.CreateDeleteCustFunctionality.Verify_Newly_Created_Customer_In_Customer_Table(CreateDeleteCustFunctionality.java:40)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="Verify_Newly_Created_Customer_In_Customer_Table()[pri:2, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@80169cf]" name="Verify_Newly_Created_Customer_In_Customer_Table" duration-ms="1410" started-at="2020-06-01T19:46:59 IST" depends-on-methods="com.infy.practice.testcases.CreateDeleteCustFunctionality.Create_New_Customer" finished-at="2020-06-01T19:47:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Newly_Created_Customer_In_Customer_Table -->
-        <test-method status="PASS" signature="Delete_Newly_Created_Customer()[pri:3, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@7dc222ae]" name="Delete_Newly_Created_Customer" duration-ms="1203" started-at="2020-05-26T13:58:21 IST" depends-on-methods="com.infy.practice.testcases.CreateDeleteCustFunctionality.Create_New_Customer" finished-at="2020-05-26T13:58:22 IST">
+        <test-method status="PASS" signature="Delete_Newly_Created_Customer()[pri:3, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@80169cf]" name="Delete_Newly_Created_Customer" duration-ms="1326" started-at="2020-06-01T19:47:01 IST" depends-on-methods="com.infy.practice.testcases.CreateDeleteCustFunctionality.Create_New_Customer" finished-at="2020-06-01T19:47:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Delete_Newly_Created_Customer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.infy.practice.testcases.CreateDeleteCustFunctionality@7dc222ae]" name="tearDown" is-config="true" duration-ms="1043" started-at="2020-05-26T13:58:43 IST" finished-at="2020-05-26T13:58:44 IST">
+      </class> <!-- com.infy.practice.testcases.CreateDeleteCustFunctionality -->
+    </test> <!-- XYZ BANK -->
+    <test name="Different Actions on window" duration-ms="31607" started-at="2020-06-01T19:47:28 IST" finished-at="2020-06-01T19:48:00 IST">
+      <class name="com.infy.practice.testcases.DifferentActions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.infy.practice.testcases.DifferentActions@74294adb]" name="setUp" is-config="true" duration-ms="12350" started-at="2020-06-01T19:46:42 IST" finished-at="2020-06-01T19:46:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Upload_File_Using_Send_Keys()[pri:0, instance:com.infy.practice.testcases.DifferentActions@74294adb]" name="Upload_File_Using_Send_Keys" duration-ms="9896" started-at="2020-06-01T19:47:28 IST" finished-at="2020-06-01T19:47:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_File_Using_Send_Keys -->
+        <test-method status="PASS" signature="Window_Authorization()[pri:0, instance:com.infy.practice.testcases.DifferentActions@74294adb]" name="Window_Authorization" duration-ms="21402" started-at="2020-06-01T19:47:38 IST" finished-at="2020-06-01T19:48:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Window_Authorization -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.infy.practice.testcases.DifferentActions@74294adb]" name="tearDown" is-config="true" duration-ms="2804" started-at="2020-06-01T19:48:00 IST" finished-at="2020-06-01T19:48:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.infy.practice.testcases.CreateDeleteCustFunctionality -->
-    </test> <!-- XYZ BANK -->
+      </class> <!-- com.infy.practice.testcases.DifferentActions -->
+    </test> <!-- Different Actions on window -->
   </suite> <!-- All Test Suite -->
 </testng-results>
